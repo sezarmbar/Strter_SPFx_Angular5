@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "types": [
+      "es6-promise",
+      "es6-collections",
+      "webpack-env"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "scripthost"
+    ]
+  },
+  "compileOnSave": true
+}
